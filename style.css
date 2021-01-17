@@ -43,12 +43,18 @@
     
 }
 
+#rafsanBtn {
+    border:2px solid black;
+}
+
+
 #rafsanBtnWhite{
     padding: 0.5em 3em;
     background-color: white;
     color:black;
     border: 2px solid black;
     transition: 0.5s ease;
+    
 }
 
 .carousel-caption input:hover{
@@ -68,6 +74,10 @@ hr {
     border: 0;
     opacity: .25;
 }
+
+.aboutSec{
+    margin-bottom: 1em;
+}
 @media screen and (max-width: 480px) {
     .btn-bikash input,#rafsanBtn{
         padding: 0.5em 1.5em;
@@ -78,6 +88,10 @@ hr {
         
         
     
+    }
+
+    #rafsanBtn{
+        border:2px solid black;
     }
 
     #rafsanBtnWhite{
