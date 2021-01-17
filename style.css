@@ -1,0 +1,75 @@
+.navbar-brand img{
+    height: 50px;
+    
+}
+
+.carousel-caption p{
+    font-size: x-small;
+    color:white;
+}
+
+.carousel-caption h5{
+    font-size: large;
+    font-weight: bold;
+    color:white;
+}
+
+.btn-bikash input{
+    padding: 1em 3em;
+    background-color: crimson;
+    color:white;
+    border: none;
+    transition: 0.5s ease;
+    
+    
+
+}
+
+.btn-bikash input:hover{
+    background-color: red;
+}
+
+#More{
+    margin-left: 1em;
+}
+
+
+.carousel-caption input{
+    padding: 0.5em 3em;
+    background-color: crimson;
+    color:white;
+    border: none;
+    transition: 0.5s ease;
+    
+}
+
+.carousel-caption input:hover{
+    background-color: red;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+.featurette-divider {
+    margin: 5rem 0;
+}
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+@media screen and (max-width: 480px) {
+    .btn-bikash input{
+        padding: 0.5em 1.5em;
+        background-color: crimson;
+        color:white;
+        border: none;
+        transition: 0.5s ease;
+        
+        
+    
+    }
+   
+}
